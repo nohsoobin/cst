@@ -29,12 +29,12 @@ const page = () => {
           <div class="container text-center mt-5">
             <h2>반납하시겠습니까?</h2>
             <br />
-            <a href="realreturn.html">
+            <Link href="/realreturn">
               <button class="mr-5 btn_r">예</button>
-            </a>
-            <a href="extend.html">
+            </Link>
+            <Link href="/extend">
               <button class="btn_r">아니오 (연장하기⚡)</button>
-            </a>
+            </Link>
           </div>
         </section>
       </main>

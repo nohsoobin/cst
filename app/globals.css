@@ -35,10 +35,6 @@ h1 {
   word-spacing: 120px;
 }
 
-footer {
-  display: flex;
-}
-
 a {
   text-decoration: none;
 }
@@ -57,18 +53,21 @@ h1 a {
 
 header {
   color: rgb(49, 53, 91);
-  padding: 10px 0px;
+  padding: 8px 8px;
   text-align: center;
+  display: flex;
 }
 
 .header a {
   color: white;
-  font-size: large;
-  font-weight: bold;
+  font-size: medium;
+  font-weight: 200;
+  padding: 10px 10px;
 }
 
 .header .container {
   text-align: center;
+  padding: 5px 5px;
 }
 
 .container ul {
@@ -78,11 +77,12 @@ header {
 .header .container a {
   color: white;
   display: inline-block;
-  font-size: 28px;
+  font-size: 23px;
+  font-weight: bold;
 }
 
 .header {
-  background-color: rgb(49, 53, 91);
+  background-color: rgb(22, 30, 107);
 }
 
 .header li {
@@ -95,6 +95,9 @@ header {
   background-color: #eeeeee;
   padding: 3px 9px;
   display: inline-block;
+}
+.header .container .links :hover {
+  background-color: rgb(49, 53, 91);
 }
 
 .headline button:hover {
@@ -275,5 +278,32 @@ nav a {
 }
 
 a:hover {
-  color: rgb(53, 53, 53);
+  color: rgb(255, 255, 255);
+}
+.button-wrapper {
+  display: inline-flex;
+  margin-left: 30px; /* 버튼 간격을 조정하려면 이 값을 변경하세요 */
+  text-align: center;
+  display: flex;
+}
+.sign .button-wrapper :hover {
+  background-color: rgb(49, 53, 91);
+  text-align: center;
+  display: flex;
+}
+.sign {
+  text-align: right;
+  text-align: center;
+  display: flex;
+}
+
+.jpgs {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .cover-heading {
+  font-size: 24px; /* 원하는 글씨 크기로 변경하세요 */
 }

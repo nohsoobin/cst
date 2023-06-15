@@ -10,21 +10,22 @@ const Header = () => {
         </div>
         <div className="links">
           <Link href="/location"> LOCATION</Link>
+          <Link href="/rent">RENT</Link>
           <Link href="/return">RETURN</Link>
-          <Link href="/extend">EXTEND</Link>
-          <Link href="/">HOME</Link>
         </div>
+      </div>
+      <div>
         <div className="sign">
-          <button>
-            <Link href="/login" legacyBehavior>
-              로그인🔐
-            </Link>
-          </button>
-          <button>
-            <Link href="/signup" legacyBehavior>
-              회원가입✍️
-            </Link>
-          </button>
+          <div className="button-wrapper">
+            <button>
+              <Link href="/login">로그인🔐</Link>
+            </button>
+          </div>
+          <div className="button-wrapper">
+            <button>
+              <Link href="/signup">회원가입✍️</Link>
+            </button>
+          </div>
         </div>
       </div>
     </header>

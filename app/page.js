@@ -11,7 +11,6 @@ const Home = () => {
         <link rel="stylesheet" href="/styles.css" />
       </Head>
       <main className="container mx-auto p-4">
-        <h2 className="text-xl mb-4">대시보드</h2>
         <section>
           <div>
             <img src="main.jpg"></img>
@@ -19,7 +18,7 @@ const Home = () => {
 
           <div className="container">
             <p>
-              전대여🖖는 노트북 사용이 잦은 대학생의 원활한 충전을 위하여
+              전대여🖖는 <b>노트북 사용이 잦은 대학생의 원활한 충전</b>을 위하여
               개발되었습니다.
               <br />
               각 건물에서 대여 및 반납이 가능하며, 화재 및 도난 방지를 위하여
@@ -29,12 +28,15 @@ const Home = () => {
             </p>
           </div>
         </section>
+        <br />
+        <br />
         <section>
           <div className="container">
-            <h3>
-              <b>사용 안내</b>
-              <br />
-            </h3>
+            <div>
+              <h2>
+                <b>사용안내</b>
+              </h2>
+            </div>
             <p>
               대여 시간은 오전9시 ~ 오후 10시입니다.
               <br />
@@ -51,9 +53,13 @@ const Home = () => {
           </div>
         </section>
       </main>
-      <footer className="bg-gray-800 text-white p-4 mt-8">
-        &copy; 2023 전자기기 대여 서비스. All rights reserved.
-      </footer>
+      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+      <df-messenger
+        intent="WELCOME"
+        chat-title="전대여🖖챗봇"
+        agent-id="06f4b1a5-fa2f-4821-813c-23088abb102e"
+        language-code="ko"
+      ></df-messenger>
     </div>
   );
 };

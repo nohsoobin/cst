@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const rent = () => {
@@ -27,7 +28,85 @@ const rent = () => {
                 <li>Apple Macbook</li>
               </ul>
               <div class="container">
-                <a href="laptop.html">
+                <Link href="/laptop">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-block btn-outline-danger btn_re"
+                  >
+                    Click
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">무선마우스</h4>
+              </div>
+              <div class="card-body_r">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/3645/3645851.png"
+                  alt="마우스"
+                />
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Noiseless</li>
+                  <li>Wireless</li>
+                  <li>Logitech</li>
+                </ul>
+                <div class="container">
+                  <a href="mouse.html">
+                    <button
+                      type="button"
+                      class="btn btn-lg btn-block btn-outline-danger btn_re"
+                    >
+                      Click
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">USB</h4>
+            </div>
+            <div class="card-body_r">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4738/4738945.png"
+                alt="usb"
+              />
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>2GB</li>
+                <li>8GB</li>
+                <li>16GB</li>
+              </ul>
+              <div class="container">
+                <a href="usb.html">
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-block btn-outline-danger btn_re"
+                  >
+                    Click
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">연결 케이블</h4>
+            </div>
+            <div class="card-body_r">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/5723/5723681.png"
+                alt="케이블"
+              />
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>USB TYPE</li>
+                <li>C TYPE</li>
+                <li>Camera</li>
+              </ul>
+              <div class="container">
+                <a href="cable.html">
                   <button
                     type="button"
                     class="btn btn-lg btn-block btn-outline-danger btn_re"

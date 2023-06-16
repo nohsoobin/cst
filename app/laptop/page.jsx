@@ -29,26 +29,6 @@ const laptop = () => {
           </tr>
         </tbody>
       </table>
-      <h3>
-        총 대여 수량 : <span id="sum"></span>
-        <button
-          class="btn mr-1 btn-outline-danger float-right"
-          onclick="eodu()"
-        >
-          대여하기
-        </button>
-      </h3>
-      <div class="container">
-        <div class="imgs d-flex justify-content-center">
-          <img src="/lg.jpg" />
-          <img src="/samsung.jpg" />
-          <img src="/mac.jpg" />
-        </div>
-        <div class="main-img">
-          <img src="/lg.jpg" id="current" />
-        </div>
-      </div>
-      <script></script>
     </div>
   );
 };

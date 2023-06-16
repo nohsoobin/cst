@@ -53,14 +53,14 @@ const rent = () => {
                   <li>Logitech</li>
                 </ul>
                 <div class="container">
-                  <a href="mouse.html">
+                  <Link href="/mouse">
                     <button
                       type="button"
                       class="btn btn-lg btn-block btn-outline-danger btn_re"
                     >
                       Click
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -80,14 +80,14 @@ const rent = () => {
                 <li>16GB</li>
               </ul>
               <div class="container">
-                <a href="usb.html">
+                <Link href="/usb">
                   <button
                     type="button"
                     class="btn btn-lg btn-block btn-outline-danger btn_re"
                   >
                     Click
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -106,14 +106,14 @@ const rent = () => {
                 <li>Camera</li>
               </ul>
               <div class="container">
-                <a href="cable.html">
+                <Link href="/cable">
                   <button
                     type="button"
                     class="btn btn-lg btn-block btn-outline-danger btn_re"
                   >
                     Click
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
